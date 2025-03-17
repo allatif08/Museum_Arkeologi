@@ -2,3 +2,21 @@ body {
     background-color: brown;
     font-family: 'nunito', sans-serif;
 }
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    color: whitesmoke;
+}
+
+#navbar .nav-link:hover {
+    color: blue;
+}
+
+#navbar .navbar-brand {
+    color: rgb(93, 249, 9);
+    font-size: 1.5rem;
+}
