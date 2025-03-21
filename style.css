@@ -3,6 +3,10 @@ body {
     font-family: 'nunito', sans-serif;
 }
 
+section {
+    padding-top: 80px;
+}
+
 #navbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -21,6 +25,11 @@ body {
     font-size: 1.5rem;
 }
 
+.navbar.scrolled {
+    background-color: cadetblue;
+    transition: background 500ms;
+}
+
 #title-head {
     font-weight: 100;
     font-size: 4rem;
@@ -32,10 +41,21 @@ body {
     font-size: 2.5rem;
 }
 
+.blurd p {
+    color: blanchedalmond;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 @media (max-width: 1200px) {
     #title-head h1 {
         font-weight: 100;
         font-size: 3rem;
     }
 }
-
